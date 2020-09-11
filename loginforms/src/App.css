@@ -1,0 +1,103 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Muli&display=swap"); */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&display=swap');
+*{
+  font-family: 'IBM Plex Serif', serif;
+}
+.App {
+  text-align: center;
+}
+.hv-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.texttitle{
+  text-align: center;
+  margin-top: 5%;
+  
+}
+.companyinfo{
+  text-align: left;
+  margin-top: 5%;
+}
+
+/* display */
+li{
+  text-decoration: none;
+}
+.capitalize {
+  text-transform: capitalize;
+}
+/*.card{
+  width: 50% !important;
+}*/
+.imageClass{
+border-radius: 5px;
+min-height: 120px;
+max-height: 220px;
+-webkit-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.5);
+-moz-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.5);
+box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.5);
+}
+.imageClass:hover{
+-webkit-transform: scale(1.1);
+transform: scale(1.1);
+}
+#trendingListAll .img-fluid{
+-webkit-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.4);
+-moz-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.4);
+box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.4);
+}
+#trendingListAll .card-img, #trendingCelebrityListAll .card-img:hover, .pageList .card-img:hover {
+border-radius: .1875rem;
+border-bottom-left-radius: 0px !important;
+border-bottom-right-radius: 0px !important;
+}
+#trendingListAll .card:hover , #trendingCelebrityListAll .card:hover , .pageList .card:hover ,#recommendedVideos .card:hover, .songs .card:hover{
+-webkit-transform: scale(1.05);
+transform: scale(1.05);
+-webkit-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.4);
+-moz-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.4);
+box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.4);
+}
+.imageBox{
+border-radius: 5px;
+-webkit-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.5);
+-moz-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.5);
+box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.5);
+}
+.imageBox:hover{
+-webkit-transform: scale(1.1);
+transform: scale(1.1);
+}
+@media only screen and (min-width: 750px) {
+.notificationDiv {
+min-width: 350px;
+}
+}
+.cardDiv a p {
+  color: black;
+}
+
+.cardDiv a h3 {
+  color: black;
+}
+
+.icon-arrow-down5 {
+  margin-top: -10px;
+}
+
+.icon-arrow-up5 {
+  margin-bottom: -10px;
+}
+
+#this-week strong
+.text-limit {
+overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap;
+cursor: pointer;
+}
+#this-week h3 {
+  font-family: Didot, serif;
+}
